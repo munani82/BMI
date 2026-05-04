@@ -36,6 +36,6 @@ export async function generateMealPlan(metrics: UserMetrics, stats: BodyStats) {
     return response.text || "식단을 생성하는 데 실패했습니다.";
   } catch (error) {
     console.error("Gemini API Error:", error);
-    return "AI 서비스 연결 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.";
+    return "AI 서비스 연결 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요. (API 키 설정을 확인해주세요)";
   }
 }
