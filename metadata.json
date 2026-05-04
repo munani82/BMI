@@ -1,0 +1,6 @@
+{
+  "name": "HealthPulse: BMI & Nutrition Planner",
+  "description": "Calculate your BMI, daily caloric needs, and get a personalized AI-generated meal plan tailored to your health goals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
